@@ -1,0 +1,8 @@
+commands:
+  entrypoint:
+    help: Upload anything to file.io
+    args:
+      - object
+    kwargs:
+      - name: expires
+        type: string
