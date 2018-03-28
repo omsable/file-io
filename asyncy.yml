@@ -6,3 +6,4 @@ commands:
     kwargs:
       - name: expires
         type: string
+        default: 14d
