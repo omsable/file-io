@@ -1,0 +1,9 @@
+entrypoint:
+  help: Upload anything to file.io
+  arguments:
+    data:
+      type: object
+      required: true
+    expires:
+      type: string
+      default: 14d
